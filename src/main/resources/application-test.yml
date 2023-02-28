@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:db
+    username: root
+    password: root
+  h2:
+    console:
+      enabled: true
+      path: /h2
